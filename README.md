@@ -18,5 +18,5 @@
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/murrugarra/valle-code.git
+git clone https://github.com/murrugarra/vallecodeadmin.git
 cd vallecodeadmin
