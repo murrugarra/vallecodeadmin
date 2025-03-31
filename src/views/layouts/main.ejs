@@ -1,0 +1,20 @@
+<!-- prettier-ignore -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <%- include('../includes/links') %>
+    </head>
+
+    <body class="g-sidenav-show bg-gray-100">
+        <%- include('../includes/sidenav') %>
+        <main class="main-content position-relative border-radius-lg">
+            <%- include('../includes/navbar') %>
+            <div class="container-fluid py-4">
+                <%- include(partialLayout) %> <%-
+                include('../includes/footer')%>
+            </div>
+        </main>
+    </body>
+
+    <%- include('../includes/scripts') %>
+</html>

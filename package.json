@@ -1,0 +1,47 @@
+{
+  "name": "vallecodeadmin",
+  "version": "1.0.0",
+  "description": "Administrative platform for managing clients, projects, activities, and finances in our startup.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murrugarra/vallecodeadmin.git"
+  },
+  "keywords": [
+    "admin",
+    "startup",
+    "clients",
+    "projects",
+    "finance",
+    "nodejs",
+    "mongodb",
+    "express",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "murrugarra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murrugarra/vallecodeadmin/issues"
+  },
+  "homepage": "https://github.com/murrugarra/vallecodeadmin#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
